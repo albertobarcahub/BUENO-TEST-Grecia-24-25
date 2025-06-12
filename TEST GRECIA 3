@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test: Los Antiguos Griegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .question {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .question h3 {
+            margin-top: 0;
+        }
+        .answers label {
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test: Los Antiguos Griegos</h1>
+
+    <form>
+        <!-- Preguntas 1 a 10 -->
+        <!-- (Ya incluidas previamente en el documento) -->
+
+        <!-- Pregunta 11 -->
+        <div class="question">
+            <h3>11. ¿En qué batalla vencieron los hoplitas a los persas?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q11"> a) Salamina</label>
+                <label><input type="radio" name="q11"> b) Platea</label>
+                <label><input type="radio" name="q11"> c) Maratón</label>
+                <label><input type="radio" name="q11"> d) Termópilas</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 12 -->
+        <div class="question">
+            <h3>12. ¿Cuál fue la consecuencia de la victoria griega en las Guerras Médicas?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q12"> a) El dominio de Persia sobre Grecia</label>
+                <label><input type="radio" name="q12"> b) La expansión de Esparta</label>
+                <label><input type="radio" name="q12"> c) El esplendor de Atenas dirigido por Pericles</label>
+                <label><input type="radio" name="q12"> d) La destrucción de todas las polis</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 13 -->
+        <div class="question">
+            <h3>13. ¿Qué provocó la Guerra del Peloponeso?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q13"> a) La invasión romana</label>
+                <label><input type="radio" name="q13"> b) La expansión macedónica</label>
+                <label><input type="radio" name="q13"> c) El auge de Atenas frente a Esparta</label>
+                <label><input type="radio" name="q13"> d) La derrota de los persas</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 14 -->
+        <div class="question">
+            <h3>14. ¿Qué resultado tuvo la Guerra del Peloponeso?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q14"> a) Victoria de Atenas</label>
+                <label><input type="radio" name="q14"> b) Victoria de Esparta y crisis en Grecia</label>
+                <label><input type="radio" name="q14"> c) Paz duradera</label>
+                <label><input type="radio" name="q14"> d) Dominio persa sobre Grecia</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 15 -->
+        <div class="question">
+            <h3>15. ¿Quién conquistó el Imperio Persa?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q15"> a) Pericles</label>
+                <label><input type="radio" name="q15"> b) Leónidas</label>
+                <label><input type="radio" name="q15"> c) Alejandro Magno</label>
+                <label><input type="radio" name="q15"> d) Filipo II</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 16 -->
+        <div class="question">
+            <h3>16. ¿Qué es el Helenismo?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q16"> a) La expansión de la religión griega</label>
+                <label><input type="radio" name="q16"> b) La unión de las polis griegas</label>
+                <label><input type="radio" name="q16"> c) La fusión de la cultura griega con la oriental</label>
+                <label><input type="radio" name="q16"> d) La creación de nuevas ciudades</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 17 -->
+        <div class="question">
+            <h3>17. ¿Qué moneda utilizaban los griegos?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q17"> a) Sestercios</label>
+                <label><input type="radio" name="q17"> b) Dracmas</label>
+                <label><input type="radio" name="q17"> c) Dólares</label>
+                <label><input type="radio" name="q17"> d) Talentos</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 18 -->
+        <div class="question">
+            <h3>18. ¿Qué son los mitos griegos?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q18"> a) Fábulas escritas por los filósofos</label>
+                <label><input type="radio" name="q18"> b) Leyendas sobre dioses y héroes</label>
+                <label><input type="radio" name="q18"> c) Libros de historia</label>
+                <label><input type="radio" name="q18"> d) Códigos de leyes</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 19 -->
+        <div class="question">
+            <h3>19. ¿Cuál es la característica del orden dórico en los templos griegos?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q19"> a) Fuste decorado con hojas de acanto</label>
+                <label><input type="radio" name="q19"> b) Capitel decorado con volutas</label>
+                <label><input type="radio" name="q19"> c) Fuste acanalado y sin basa</label>
+                <label><input type="radio" name="q19"> d) Fuste liso y con basa</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 20 -->
+        <div class="question">
+            <h3>20. ¿Qué autor escribió la Ilíada y la Odisea?</h3>
+            <div class="answers">
+                <label><input type="radio" name="q20"> a) Sócrates</label>
+                <label><input type="radio" name="q20"> b) Platón</label>
+                <label><input type="radio" name="q20"> c) Aristóteles</label>
+                <label><input type="radio" name="q20"> d) Homero</label>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
